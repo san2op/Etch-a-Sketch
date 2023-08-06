@@ -1,0 +1,45 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    background: linear-gradient(rgb(245,155,155), rgb(155,245,155), rgb(155,155,245));
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border:3px double black;
+}
+button{
+    background-color: rgb(197, 178, 144);
+    border-radius: 50px;
+  
+}
+
+.footer > button{
+    margin-top: 10px;
+}
+
+
+
+
